@@ -1,16 +1,16 @@
 import './App.css';
-import Slider from './Slider/Slider.js';
-import RecipeRow from './PageButtons/RecipesHorizontal.js';
-import HomePage from './Pages/Home';
-import {Route,Link} from 'react-router-dom'
+import HomePage from './Pages/Home/Home';
+import AboutPage from './Pages/About';
+import {Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="Container">
-        <Route exact to='/' component={HomePage}/>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>  
+          <Route path='/about' element={<AboutPage/>}/>
+        </Routes>
         
-        <Slider />
-        <RecipeRow />      
     </div>
   );
 }
