@@ -1,14 +1,17 @@
 import React from 'react'
 import { Container, Row, Col, Button, Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '../../NavBar/NavigationBar';
 import './Login.css';
 
 
 
 const Login = () => {
   return (
-
-        <Container className='mt-5' class="border p-5 position-absolute top-50 start-50 translate-middle">
+        <div>
+            <Navbar />
+            <div className='loginSpace'>
+            <Container className='mt-5' class="border p-5 position-absolute top-50 start-50 translate-middle">
             <Row>
                 <Col className="text-center">
                     <Form>
@@ -41,6 +44,11 @@ const Login = () => {
                 </Col>  
             </Row>
         </Container>
+            </div>
+            
+        <div className='addtlSpace'></div>
+        </div>
+        
   )
 }
 
