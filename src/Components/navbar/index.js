@@ -1,5 +1,4 @@
 import React from 'react'
-import './navbar.css'
 import {
     Nav,
     NavLink,
@@ -12,20 +11,22 @@ import {
 
 const Navbar = () => {
   return (
-    <div className='nav-container'>
-        <Nav>
+    <Nav>
         <NavLink to='/'>
-            <img src={process.env.PUBLIC_URL+'/Imgs/NavbarLogo.svg'} alt='miseenplacelogo'></img>
+            <h1>Logo</h1>
         </NavLink>
         <Bars />
         <NavMenu>
             <NavLink to='/about'>
                 About
             </NavLink>
-            <NavLink to='/dashboard'>
+            <NavLink to='/about'>
                 Dashboard
             </NavLink>
-            <NavLink to='/createRecipe'>
+            <NavLink to='/about'>
+                My Recipes
+            </NavLink>
+            <NavLink to='/about'>
                 Create Recipe
             </NavLink>
             
@@ -34,9 +35,7 @@ const Navbar = () => {
             <NavBtnLink to='/Login'>Login</NavBtnLink>
         </NavBtn>
     </Nav>
-    </div>
-    
   )
 }
 
-export default Navbar;
+export default Navbar

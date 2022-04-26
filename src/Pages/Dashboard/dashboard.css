@@ -1,0 +1,39 @@
+.recipes{
+    display: flex;
+    flex-direction: row;
+}
+
+.titleHeader{
+    margin: 20px 0 20px 20px;
+}
+
+.dashboardContainer{
+    background-color: #81A57C;
+}
+
+.recipeContainer{
+    background-color: #DFEBDE;
+    box-shadow: 10px;
+    padding:30px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+}
+
+hr{
+    border-top: 8px solid #394937;
+    border-radius: 5px; 
+}
+.addRecipe{
+    width: 40%;
+    height: auto;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: lightgray;
+}
+
+.addBtn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

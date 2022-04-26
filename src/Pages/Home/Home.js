@@ -5,9 +5,10 @@ import Navbar from '../../NavBar/NavigationBar';
 import Divider from '../../Divider/Divider';
 
 
+
 function HomePage(){
     return(
-        <div>
+        <div className=''>
             <Navbar />
             <Slider />
             <Divider dividerText='Read Recipes from Other People'/>
