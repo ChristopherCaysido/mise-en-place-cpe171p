@@ -5,9 +5,9 @@ import { mysavedrecipedata } from "./dashboarddata";
 import { myrecipedata } from "./dashboarddata";
 import { Link } from "react-router-dom";
 import './dashboard.css'
+import TheFooter from "../../Components/AFooter";
 
 function Dashboard(){
-    
 
     return(
         <div className="dashboardContainer">
@@ -45,6 +45,7 @@ function Dashboard(){
                         )
                     })}</div>
             </div>
+            <TheFooter/>
         </div>
     )
 }

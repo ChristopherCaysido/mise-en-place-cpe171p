@@ -13,3 +13,12 @@
     width: 70px;
     height: 70px;
 }
+.addtlSpace{
+    width:100%;
+}
+.loginSpace{
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+}
