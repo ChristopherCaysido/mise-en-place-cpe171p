@@ -1,0 +1,15 @@
+
+.authorImg{
+    border-radius: 100px 100px 100px 100px;
+    width: 10%;
+    height: 50%;
+    margin: 0px 30px 0px 40px;
+    object-fit: fill;
+
+}
+
+.authorTitle{
+    margin: 0 600px 0 600px;
+    font-size: 45px;
+    color: #FFFF;
+}

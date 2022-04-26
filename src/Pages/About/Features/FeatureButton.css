@@ -1,0 +1,45 @@
+.features-container{
+    width: 100%;
+    height: 150%;
+    border-radius: 25px;
+    background-color: #00FF00;
+    margin: 10px 10px 10px 10px;
+}
+
+.featureImg{
+    width: 100%;
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+    margin: 10px 10px 10px 10px;
+    object-fit: fill;
+
+}
+
+.readmorebutton{
+    text-align: center;
+    background-color: #0000;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    border: none;
+    color: #FFFF;
+    font: 15px;
+    overflow:hidden;
+}
+
+.featureDesc{
+    margin: none;
+    position: center;
+    font-size: 10px;
+}
+
+.readmore-container{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.featureTitle{
+    font-size: 20px;
+    margin: none;
+    position: center;
+}
