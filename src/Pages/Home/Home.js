@@ -4,6 +4,7 @@ import Slider from './Slider/Slider';
 import Navbar from '../../NavBar/NavigationBar';
 import Divider from '../../Divider/Divider';
 import TheFooter from '../../Components/AFooter';
+import { useState } from 'react';
 import './Home.css'
 
 function HomePage(){
