@@ -1,8 +1,47 @@
-.authorflexbox-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: black;
-    gap: 10px;
 
+.maincontainer {
+    width: 100%;
+    display: flex;
+    background-color: rgb(234, 214, 198);
+    padding:50px;
+    box-sizing: border-box;
+    flex-direction: row;
+
+}
+
+.authoronecontainer{
+    flex:1;
+    background-color: #d1b48c;
+    padding: 60px;
+    margin:20px;
+    
+    box-shadow: -30px 30px 20px rgb(63, 62, 62);
+    text-align: center;
+    
+}
+
+.authortwocontainer{
+    flex:1;
+    background-color: #d1b48c;
+    padding: 60px;
+    margin:20px;
+    
+    box-shadow: -30px 30px 20px rgb(63, 62, 62);
+    text-align: center;
+}   
+
+.authorthreecontainer{
+    flex:1;
+    background-color: #d1b48c;
+    padding: 60px;
+    margin:20px;
+    
+    box-shadow: -30px 30px 20px rgb(63, 62, 62);
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .maincontainer{
+        flex-direction: column;
+    }
 }
