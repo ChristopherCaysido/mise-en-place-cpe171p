@@ -35,14 +35,14 @@ const Navbar = () => {
             <NavLink to='/about'>
                 About
             </NavLink>
-            {user ? (<></>) : (
-                <>
-                <NavLink to='/dashboard'>
+            {user ? (<><NavLink to='/dashboard'>
                     Dashboard
                 </NavLink>
                 <NavLink to='/createRecipe'>
                     Create Recipe
-                </NavLink>
+                </NavLink></>) : (
+                <>
+                
                 </>
             )}
             
