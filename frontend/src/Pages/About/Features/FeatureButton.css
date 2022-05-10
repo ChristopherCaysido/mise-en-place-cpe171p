@@ -7,7 +7,7 @@
 }
 
 .featureImg{
-    width: 100%;
+    width: 90%;
     height: 200px;
     border-radius: 25px 25px 0 0;
     margin: 10px 10px 10px 10px;
@@ -22,7 +22,7 @@
     padding: 10px 10px 10px 10px;
     position: relative;
     border: none;
-    color: #FFFF;
+    color: rgb(106, 118, 225);
     font: 15px;
     overflow:hidden;
 }
